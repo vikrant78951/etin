@@ -7,9 +7,12 @@ next : https://www.youtube.com/watch?v=rCselwxbUgA
 rapid api 
 
 
-Menus:
-Task Manager => Add, Edit, Delete, Configure.
+Menus ------------------------------>
+Task Manager => view, Add, Edit, Delete, Configure.
+
 Investment   => News, Trading jurnal.
+
 Application  => Music, Video, etc.
-Budget => 
+
+Expence => 
 
