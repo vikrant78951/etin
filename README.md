@@ -7,6 +7,12 @@ next : https://www.youtube.com/watch?v=rCselwxbUgA
 rapid api 
 
 
+
+Domains ------------------------------>
+https://etin.vercel.app/
+https://etin-vikrant78951.vercel.app/
+
+
 Menus ------------------------------>
 Task Manager => view, Add, Edit, Delete, Configure.
 
