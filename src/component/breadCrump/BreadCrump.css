@@ -1,0 +1,42 @@
+
+.breadcrump {
+    list-style: none;
+    display: flex;
+    gap:20px;
+    padding:20px;
+}
+.breadcrump li {
+  list-style: none;
+  position: relative;
+}
+.breadcrump li:after {
+  content: '';
+  position: absolute;
+  border:1px solid var(--text-normal);
+  border-left-color: transparent;
+  border-top-color: transparent;
+  height: 5px;
+  width: 5px;
+  background-color: transparent;
+  top:7px;
+  right: -10px;
+  transform: rotate(-45deg);
+}
+
+.breadcrump li a{
+  display: block;
+  color:var(--text-normal);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.breadcrump li:last-child::after {
+  display: none;
+}
+.breadcrump li:last-child a{
+  color:var(--highlight) ;
+  font-weight: bold;
+}
+.breadcrump li a:hover{
+    color:var(--highlight) ;
+}

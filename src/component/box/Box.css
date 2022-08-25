@@ -1,0 +1,7 @@
+#box{
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: var(--header-shadow);
+    margin: 20px 20px 30px 20px;
+    background-color: #fff;
+  }

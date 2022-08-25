@@ -1,0 +1,124 @@
+/* navigation  */
+
+#navigation {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    height: calc(100vh - 75px);
+    background-color: #fff;
+    z-index: 1000;
+}
+
+
+.navigation {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    box-shadow: 0 4px 25px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 10%);
+
+    width: 330px
+}
+
+.navigation-tab {
+    padding: 10px;
+    border-right: 1px solid #e6e6e6;
+
+}
+
+.navigation-body {
+    padding: 0px 10px;
+}
+
+.navigation-tab ul {
+    list-style: none;
+}
+
+.navigation-tab ul li {
+    margin-bottom: 5px;
+}
+
+.navigation-tab ul li a {
+    color: var(--text-dark);
+    border-radius: 5px;
+    height: 55px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms all;
+}
+
+.navigation-tab ul li a svg {
+    width: 25px;
+    height: auto;
+}
+
+.navigation-tab ul li a:hover {
+    color: var(--highlight);
+}
+
+.navigation-tab ul li a.active {
+    background-color: var(--highlight);
+    color: white;
+}
+
+.navigation-body {}
+
+.navigation-body ul {
+    list-style: none;
+}
+
+.navigation-menu .navigation-menu-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px;
+    text-decoration: none;
+
+}
+
+.navigation-menu .navigation-menu-link .icons {
+    margin-right: 8px;
+    display: flex;
+}
+
+.navigation-menu .navigation-menu-link .icons svg {
+    color: var(--text-normal);
+    font-size: 20px;
+
+}
+
+.navigation-menu .navigation-menu-link .text {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-normal);
+    font-weight: 500;
+}
+
+.navigation-menu.navigation-active-menu .navigation-menu-link .icons svg {
+    color: var(--text-light);
+}
+
+.navigation-menu.navigation-active-menu .navigation-menu-link .text,
+.navigation-menu.navigation-active-menu .navigation-menu-link:hover .text {
+    color: var(--text-light);
+
+}
+
+
+.navigation-menu .navigation-menu-link.active .icons svg {
+    color: var(--highlight);
+}
+
+.navigation-menu .navigation-menu-link.active .text {
+    color: var(--highlight);
+    font-weight: bold;
+
+}
+
+.navigation-menu .navigation-menu-link:hover .text {
+    color: var(--highlight);
+}
